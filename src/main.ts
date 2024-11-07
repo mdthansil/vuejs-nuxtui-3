@@ -1,10 +1,10 @@
 import './assets/main.css';
 
-// import nuxtUI from '@nuxt/ui/vue-plugin';
+import nuxtUI from '@nuxt/ui/vue-plugin';
 import { createApp } from 'vue';
 import App from './App.vue';
 
 const app = createApp(App);
 // ...
-// app.use(nuxtUI);
+app.use(nuxtUI);
 app.mount('#app');
